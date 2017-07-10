@@ -1,0 +1,335 @@
+body{
+    background: #212121;
+    font-family: 'Biryani';
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 200px;
+}
+h1{
+    color: #E1E1E1;
+}
+input{
+    border: 2px solid #E1E1E1;
+    border-radius: 15px;
+    background: #212121;
+    padding: 5px;
+    margin: 15px 5px;
+    box-sizing: border-box;
+    height: 50px;
+    font-weight:600;
+    color: #E1E1E1;
+    font-size: 1.5em;
+}
+
+a:link, a:visited, a:active, a:hover{
+    background: #212121;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    color: #E1E1E1;
+    font-weight:600;
+    text-decoration: none;
+    height: 50px;
+    font-size: 1.5em;
+}
+input.nappilinkki{
+    border: 0px;
+    cursor: pointer;
+
+}
+#paperi input{
+    background: #E1E1E1;
+    border: 0px;
+    cursor: pointer;
+    border-bottom: 3px solid #515151;
+    color: #212121;
+    font-size: 1em;
+    font-weight: 200;
+    cursor: text;
+    padding: 1px;
+    margin: 2px;
+    border-radius: 0px;
+}
+th{
+    text-align: left;
+}
+td input{
+    width: 50px;
+    text-align: center;
+}
+
+
+#lomake input{
+    width: 450px;
+}
+
+.label{
+    display: inline-block;
+    width: 200px;
+}
+
+.foot{
+    display: inline-block;
+    width: 300px;
+}
+
+#osoitteet{
+    display: inline-block;
+}
+#tiedot{
+    width: 40%;
+    min-width: 250px;
+    float: right;
+}
+
+#tiedot span{
+    float:right
+}
+
+#lisaarivi{
+    clear: both;
+}
+
+
+#tslomake{
+    width: 1004px;
+    border: 1px solid #000;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.tsosa{
+    display: inline-block;
+    border: 1px solid #000;
+    overflow: hidden;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#vasen{
+    border: 0px solid purple;
+    width: 500px;
+    height: 350px;
+}
+#oikea{
+    border: 0px solid green;
+    width: 500px;
+    height: 350px;
+}
+
+#ots{
+    width: 104px;
+    height: 50px;
+    font-size: 0.8em;
+}
+#iban{
+    width: 380px;
+    height: 50px;
+    font-size: 1.5em;
+}
+
+#maksaja{
+    width: 487px;
+    height: 165px;
+    margin-bottom: 5px;
+}
+
+#tili{
+    width: 487px;
+    height: 50px;
+}
+
+#vapaa{
+    width: 487px;
+    height: 225px;
+    margin-bottom: 5px;
+}
+
+#viitenumero{
+    width: 380px;
+    height: 50px;
+}
+#era, #summa{
+    height: 50px;
+    width: 188px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+    background: #313131;
+    padding: 10px;
+    margin: -10px;
+    text-align: center;
+    width: 100%;
+}
+
+#footer a:link, #footer a:visited, #footer a:active, #footer a:hover {
+    border: 2px solid #E1E1E1;
+    border-radius: 15px;
+    padding-bottom:0px;
+}
+
+#header{
+    background: #121212;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.8);
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: 180px;
+}
+
+#logo{
+    display: inline;
+    margin: 0px;
+    font-size: 0.5em;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    float: left;
+}
+
+#menu {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#menu li{
+
+    color: #E1E1E1;
+    display: inline-block;
+    list-style-type: none;
+    width: 100px;
+    margin: 0px 35px 0px 35px;
+    border-bottom: 2px solid #FF3300;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+#menu, a:link.navi, a:active.navi, a:hover.navi, a:visited.navi{
+    background-color: rgba(0,0,0,0);
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+}
+
+#main{
+    padding: 10px;
+}
+
+table{
+    width: auto;
+    text-align: left;
+    table-layout: auto;
+    border-collapse: collapse;
+
+}
+
+#main th{
+    background: #323232;
+}
+
+#main td, #main th{
+    display: table-cell;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #E1E1E1;
+    color: #E1E1E1;
+
+}
+
+
+table a:link, table a:visited, table a:active, table a:hover {
+    font-size: 1em;
+    font-weight: normal;
+    background: rgba(0,0,0,0);
+}
+
+table a:hover{
+    text-decoration: underline;
+}
+
+
+#paperi h1{
+    color: #212121;
+}
+
+#paperi{
+    background: #FFF;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.9);
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 25px;
+}
+#paperi button{
+    margin-top: 15px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #212121;
+    font-size: 1.5em;
+
+}
+
+#paperi table {
+    width: 100%;
+}
+
+#paperi th{
+    background: rgba(0,0,0,0);
+    color: #121212;
+    border: 0px;
+}
+
+
+
+#paperi td{
+    color: #212121;
+    border: 0px;
+
+}
+
+#paperi td:last-child, #paperi th:last-child{
+    text-align: right;
+}
+
+a:link.btn, a:active.btn, a:hover.btn, a:visited.btn {
+
+    background: rgba(0,0,0,0);
+    font-size: 1em;
+}
+
+.buttonContainer{
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#home{
+    text-align: center;
+}
+
+a:link.homeBtn,
+a:active.homeBtn,
+a:hover.homeBtn,
+a:visited.homeBtn{
+    text-align: center;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    border: 2px solid #E1E1E1;
+    border-radius: 5px;
+    box-shadow: -5px 5px 10px rgba(0,0,0,0.6);
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+.homeBtn img{
+    width: 200px;
+    margin-bottom: 15px;
+}
