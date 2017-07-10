@@ -17,23 +17,11 @@
         <div id="menu">
             <ul>
                 <li>Etusivu</li>
-            </ul>
-            <ul>
                 <li>Demo / palvelu</li>
-            </ul>
-            <ul>
                 <li>Tukien myöntäjät</li>
-            </ul>
-            <ul>
                 <li>Ohjeita tukien hakuun</li>
-            </ul>
-            <ul>
                 <li>Osta</li>
-            </ul>
-            <ul>
                 <li>Rekisteröidy</li>
-            </ul>
-            <ul>
                 <li>Kirjaudu</li>
             </ul>
         </div>
